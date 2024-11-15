@@ -55,7 +55,7 @@ const addDoctor = async (req,res) => {
     const newDoctor = new doctorModel(doctorData)
     await newDoctor.save()
 
-    res.json({success:true,message:"Doctor Added"})
+    res.json({success:true,message:"Donor Added"})
 
      } catch (error) {
        console.log(error);
